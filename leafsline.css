@@ -85,11 +85,19 @@
    box-shadow: 0px 0px 2px black;
  }
  .xboxImg:hover{
-   box-shadow: 0px 0px 5px #ff8500;
+   box-shadow: 0px 0px 5px #414141;
+ }
+ .section{
+   border-bottom: 2px solid green;
+   margin-left:10% ;
+   margin-right:10%;
+   
  }
 .gamesText{
-   margin-left: 10%;
    margin-top:10px;
+   color:#ff8500;
+
+   
 }
 .gameContainer{
    display:flex;
