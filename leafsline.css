@@ -98,11 +98,12 @@
 .element
 {
    width:80%;
-   height:940px;
+   height:1400px;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    padding-top:10px;
+   border:1px solid red;
 }
 .imgCont{
    width:280px;
