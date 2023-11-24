@@ -43,23 +43,6 @@
  {
     letter-spacing: 1px;
  }
- .btn-search{
-    background-color:transparent;
-    padding-left:5px;
-    font-size:13px;
-    color:black;
-    padding-right:5px;
-    position:absolute;
-    top:21px;
-    right:471px;
-    height:27px;
-    letter-spacing: 1px;
-    border:none;
-    border-radius: 5px;
-    text-align: center;
-    justify-content: center;
-    height:25px;
- }
  #search{
     border-radius:5px;
     padding-left:5px;
@@ -67,9 +50,12 @@
     width:300px;
     height:27px;
     align-items:center;
+    color:#ff8500;
+    
  }
  #search:focus{
     border:none;
+    outline-color: #0FA74B;
  }
  .btn-search:hover{
     background-color: #e7e7e7;
@@ -78,4 +64,7 @@
  #search:focus{
    color:#0FA74B;
    border:none;
+ }
+ .searchDiv{
+   margin-left:15px;
  }
