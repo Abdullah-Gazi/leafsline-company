@@ -1,0 +1,64 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.firstContainer{
+ display: flex;
+ justify-content: center;
+}
+.secondContainer{
+    width:250px;
+    height:250px;
+    padding:5px;
+    margin-top:30px;
+    border-radius:5px;
+    box-shadow: 0px 0px 2px black;
+    background-color:rgb(18, 15, 51);
+    text-align: center;
+}
+.secondContainer:hover{
+    box-shadow: 0px 0px 5px rgb(32, 32, 32);
+}
+input{
+ border:none;
+ border-radius: 2px;
+ text-align: center;
+ height:20px;
+}
+input:hover{
+    box-shadow: 0px 0px 5px 1px rgb(30, 255, 0);
+}
+
+input:focus{
+   outline:none;
+   color:green;
+}
+#signin{
+    padding:2px 13px;
+    margin-bottom: 5px;
+}
+button{
+   padding:2px 10px;
+   border-radius: 2px;
+   font-size: 12px;
+   border:none;
+}
+button:hover{
+    box-shadow: 0px 0px 5px 1px blueviolet;
+    background-color: blueviolet;
+    color:white;
+}
+
+h4{
+    color:white;
+}
+#signup a{
+    text-decoration: none;
+}
+#signup:hover a{
+    color:white;
+}
+img{
+    padding:31px;
+    width:100px;
+
+}
